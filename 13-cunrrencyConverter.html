@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Currency</title>
+</head>
+<style>
+
+</style>
+<body>
+    <h1>Convert Your Currency Here</h1>
+    <input id="currencyInput" placeholder="Amount" type="number"> from
+    <select name="convertfrom" id="convertfrom">
+        <option value="usd">USD</option>
+        <option value="pds">Pounds</option>
+        <option value="nga">Naira</option>
+        <option value="Euro">Euro</option>
+        <option value="cedi">Cedis</option>
+    </select>
+    to
+    <select name="convertto" id="convertto">
+        <option value="ud">USD</option>
+        <option value="ps">Pounds</option>
+        <option value="na">Naira</option>
+        <option value="eo">Euro</option>
+        <option value="cs">Cedis</option>
+    </select>
+    <button id="exchange-btn">Exchange</button>
+    <div id="result"></div>
+            
+
+    <script type="module" src="./scripts/currencyConverter.js"></script>
+</body>
+</html>
